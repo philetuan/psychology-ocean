@@ -52,7 +52,8 @@
 
   justify-content: center;
   font-size: 40px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Ysabeau Office', sans-serif;
+  
   margin-top: 50px;
 }
 
@@ -73,6 +74,8 @@
   margin-right: 250px;
   font-size: 12px;
   text-align: justify;
+  font-family: 'Ysabeau Office', sans-serif;
+  font-weight: 200;
 }
 
 .doctor {
@@ -195,26 +198,6 @@ input#message {
   grid-column: 1/3;
 }
 
-.submit {
-  margin-left: 1020px;
-  margin-top: 20px;
-  width: 100px;
-  height: 30px;
-  margin-bottom: 30px;
-  background-color: #FF9EAA;
-
-
-}
-
-.submit:hover {
-  box-shadow: 5px 5px #DAFFFB;
-  background-color: aquamarine;
-  border-radius: 30px;
-}
-
-.submit {
-  transition-duration: 0.7s;
-}
 
 .nav-home {
   display: flex;
@@ -285,8 +268,8 @@ input#message {
 
 .text-impact {
   /* display: flex;
-   justify-content: center;
-   align-items: center; */
+  justify-content: center;
+  align-items: center; */
   margin-left: 250px;
   margin-right: 250px;
   font-size: 12px;
@@ -331,25 +314,32 @@ input#message {
   box-shadow: 10px 10px 5px #aaaaaa;
   background-color: white;
 }
-.box-news:hover{
-  box-shadow: 15px 15px 10px #aaaaaa;
-}
-.box-news{
-  transition-duration: 0.7s;
-}
-.box-news2:hover{
-  box-shadow: 15px 15px 10px #aaaaaa;
-}
-.box-news2{
-  transition-duration: 0.7s;
-}
+
 .box-news:hover {
-  transform: scale(1.1); 
+  box-shadow: 15px 15px 10px #aaaaaa;
 }
+
+.box-news {
+  transition-duration: 0.7s;
+}
+
 .box-news2:hover {
-  transform: scale(1.1); 
+  box-shadow: 15px 15px 10px #aaaaaa;
 }
-.general-box2{
+
+.box-news2 {
+  transition-duration: 0.7s;
+}
+
+.box-news:hover {
+  transform: scale(1.05);
+}
+
+.box-news2:hover {
+  transform: scale(1.05);
+}
+
+.general-box2 {
   margin-top: 59px;
   display: flex;
   flex-direction: row;
@@ -374,7 +364,7 @@ input#message {
   object-fit: cover;
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
-  
+
 }
 
 .box-news2 h1 {
@@ -442,7 +432,7 @@ input#message {
   object-fit: cover;
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
-  
+
 }
 
 .box-news h1 {
@@ -463,28 +453,151 @@ input#message {
   margin-left: 10px;
 }
 
-.sign2{
+.sign2 {
   margin-top: 45px;
 
 }
-.sign2 h1{
+
+.sign2 h1 {
   color: gray;
   font-size: 20px;
   margin-left: 10px;
 }
 
-.sign3{
+.sign3 {
   margin-top: 45px;
 
 }
-.sign3 h1{
+
+.sign3 h1 {
   color: gray;
   font-size: 20px;
   margin-left: 10px;
 }
+
 a {
   text-decoration: none;
 }
-.bunhin a{
+
+.bunhin a {
   color: black;
+}
+
+.submit {
+  margin-top: 25%;
+  margin-left: 25%;
+  width: 100px;
+  height: 30px;
+  background-color: #FF9EAA;
+
+
+}
+
+.submit:hover {
+  box-shadow: 5px 5px #DAFFFB;
+  background-color: aquamarine;
+  border-radius: 30px;
+}
+
+.submit {
+  transition-duration: 0.7s;
+}
+
+.container-submit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container-mail1:hover {
+
+  transform: scale(1.07);
+  box-shadow: 3px 10px 15px gray;
+
+}
+
+.container-mail1 {
+  transition-duration: 0.7s;
+}
+
+.container-mail1-con img{
+  width: 100%;
+  object-fit: cover;
+  height: 50%;
+  border-top-left-radius: 70px;
+  border-bottom: dashed gray 3px;
+}
+.container-mail234-con img{
+  width: 100%;
+  object-fit: cover;
+  height: 50%;
+  border-bottom: dashed gray 3px ;
+}
+.container-mail5-con img{
+  width: 100%;
+  object-fit: cover;
+  height: 50%;
+  border-bottom: dashed gray 3px ;
+  border-top-right-radius: 30px;
+}
+.container-mail234:hover {
+
+  transform: scale(1.07);
+  box-shadow: 3px 10px 15px gray;
+
+}
+
+.container-mail234 {
+  transition-duration: 0.7s;
+}
+
+.container-mail5:hover {
+
+  transform: scale(1.07);
+  box-shadow: 3px 10px 15px gray;
+
+}
+
+.container-mail5 {
+  transition-duration: 0.7s;
+}
+
+.container-mail1 {
+  margin-top: 100px;
+  border: black solid 3px;
+  width: 200px;
+  height: 300px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 5px gray;
+
+}
+
+.container-mail5 {
+  margin-top: 100px;
+  border: black solid 3px;
+  width: 200px;
+  height: 300px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.container-mail234 {
+  margin-top: 100px;
+  border: black solid 3px;
+  width: 200px;
+  height: 300px;
+  /* border-bottom-left-radius: 30px; */
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 5px gray;
 }
